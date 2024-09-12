@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма ввода</title>
+</head>
+<body>
+    <h1>Введите свои данные</h1>
+    <form id="dataForm">
+        <label for="name">Имя:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="phone">Номер телефона:</label><br>
+        <input type="text" id="phone" name="phone" required><br>
+        <input type="submit" value="Отправить">
+    </form>
+
+    <script>
+        document.getElementById('dataForm').onsubmit = function(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            alert(`Имя: ${name}, Номер телефона: ${phone}`);
+            // Здесь можно добавить код для отправки данных на сервер
+        };
+    </script>
+</body>
+</html></title>
+</head>
+<body>
+
+</body>
+</html>

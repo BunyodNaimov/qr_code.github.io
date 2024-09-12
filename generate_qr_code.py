@@ -1,7 +1,7 @@
 import qrcode
 
 # URL вашей HTML-страницы
-url = "http://localhost/form.html"  # Замените на URL, где будет размещена HTML-страница
+url = "https://bunyodnaimov.github.io/qr_code.github.io/"  # Замените на URL, где будет размещена HTML-страница
 
 # Создание QR-кода
 qr = qrcode.QRCode(
